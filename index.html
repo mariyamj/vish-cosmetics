@@ -6,9 +6,7 @@
     <title>VISH Cosmetic Clinic | The Art of Refinement</title>
     
     <link rel="icon" type="image/png" href="assets/images/logo-white.png">
-    
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
-    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,7 +17,6 @@
             <div class="logo-wrapper">
                 <a href="#"><img src="assets/images/logo-white.png" alt="VISH Logo" class="nav-logo"></a>
             </div>
-            
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -27,7 +24,6 @@
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-
             <div class="nav-actions">
                 <a href="tel:+123456789" class="cta-button">
                     <i data-lucide="phone"></i> <span>Call Clinic</span>
@@ -52,26 +48,67 @@
             <p>Tailored transformations for natural, lasting results.</p>
         </div>
 
-        <div class="procedure-grid">
-            <div class="procedure-card" data-aos="fade-up" data-aos-delay="100">
-                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80" alt="Facial Surgery">
-                <div class="card-overlay">
-                    <h3>Facial Rejuvenation</h3>
-                    <p>Deep Plane Facelift & Rhinoplasty</p>
+        <div class="carousel-viewport">
+            <button class="edge-nav prev-edge"><i data-lucide="chevron-left"></i></button>
+            <button class="edge-nav next-edge"><i data-lucide="chevron-right"></i></button>
+
+            <div class="carousel-container">
+                <div class="procedure-card carousel-item" data-index="0">
+                    <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80" alt="Facial">
+                    <div class="card-overlay">
+                        <h3>Facial Rejuvenation</h3>
+                        <p>Deep Plane Facelift & Rhinoplasty</p>
+                    </div>
+                </div>
+                <div class="procedure-card carousel-item" data-index="1">
+                    <img src="assets/images/bodycont.avif" alt="Body">
+                    <div class="card-overlay">
+                        <h3>Body Contouring</h3>
+                        <p>High-Definition Sculpting</p>
+                    </div>
+                </div>
+                <div class="procedure-card carousel-item" data-index="2">
+                    <img src="assets/images/nonsurg.avif" alt="Med Spa">
+                    <div class="card-overlay">
+                        <h3>Non-Surgical</h3>
+                        <p>Precision Injectables & Lasers</p>
+                    </div>
                 </div>
             </div>
-            <div class="procedure-card" data-aos="fade-up" data-aos-delay="200">
-                <img src="https://images.unsplash.com/photo-1598444447592-f54c2e434685?auto=format&fit=crop&q=80" alt="Body Contouring">
-                <div class="card-overlay">
-                    <h3>Body Contouring</h3>
-                    <p>High-Definition Sculpting</p>
-                </div>
+        </div>
+    </section>
+
+    <section class="approach-split">
+        <div class="approach-inner">
+            <div class="approach-text-top" data-aos="fade-up">
+                <span class="eyebrow">The VISH Philosophy</span>
+                <h2>A Two-pronged Approach <br>to Facial Rejuvenation</h2>
             </div>
-            <div class="procedure-card" data-aos="fade-up" data-aos-delay="300">
-                <img src="https://images.unsplash.com/photo-1614806687472-359f42848130?auto=format&fit=crop&q=80" alt="Med Spa">
-                <div class="card-overlay">
-                    <h3>Non-Surgical</h3>
-                    <p>Precision Injectables & Lasers</p>
+
+            <div class="dual-concept-container">
+                <div class="concept-box" data-aos="fade-right">
+                    <div class="concept-glass">
+                        <span class="concept-number">01</span>
+                        <h3>Youthful Shape</h3>
+                        <div class="concept-divider"></div>
+                        <p class="method-name">Vertical Restore</p>
+                        <p class="concept-desc">Addressing structural foundations to restore the natural lifting of facial contours.</p>
+                    </div>
+                </div>
+
+                <div class="concept-connector" data-aos="zoom-in">
+                    <div class="plus-sign">+</div>
+                    <div class="connector-label">Comprehensive Natural Results</div>
+                </div>
+
+                <div class="concept-box" data-aos="fade-left">
+                    <div class="concept-glass">
+                        <span class="concept-number">02</span>
+                        <h3>Youthful Skin</h3>
+                        <div class="concept-divider"></div>
+                        <p class="method-name">Trifecta</p>
+                        <p class="concept-desc">Refining the surface texture and tone for a vibrant, luminous complexion.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,8 +116,9 @@
 
     <footer id="contact" class="custom-footer">
         <div class="footer-top-links">
-            <a href="#">About</a>
-            <a href="#services">Surgical Rejuvenation</a>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
             <a href="#gallery">Gallery</a>
             <a href="#contact">Contact</a>
             <a href="#">Request Consultation</a>
@@ -101,7 +139,7 @@
             </div>
 
             <div class="footer-center" data-aos="fade-in">
-                <img src="assets/images/logo-mockup.png" alt="VISH Mockup Logo" class="footer-mockup">
+                <img src="assets/images/logo-white.png" alt="VISH Mockup Logo" class="footer-mockup">
             </div>
 
             <div class="footer-right">
